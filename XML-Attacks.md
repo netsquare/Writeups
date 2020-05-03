@@ -1092,7 +1092,7 @@ OutPut : 1
 count(//users/user)
 OutPut : 2
 ```
-<img src="https://i.ibb.co/F8jrZ6p/Screenshot-2020-03-18-at-12-00-26-AM.png" align="left" height="72" width="862" ><br>
+<img src="https://i.ibb.co/F8jrZ6p/Screenshot-2020-03-18-at-12-00-26-AM.png" align="center" height="72" width="862" ><br>
 
 2. string-length(string)
 ```
@@ -1105,7 +1105,7 @@ string-length(string(//user[position()=1]/child::node()[position()=4]))=6      O
 string-length(string(//user[position()=1]/child::node()[position()=4]))=7      OutPut : false
 string-length(string(//user[position()=1]/child::node()[position()=4]))=8      OutPut : true
 ```
-<img src="https://i.ibb.co/b5JqHqk/Screenshot-2020-03-17-at-7-45-45-PM.png" align="left" height="290" width="862" ><br>
+<img src="https://i.ibb.co/b5JqHqk/Screenshot-2020-03-17-at-7-45-45-PM.png" align="center" height="290" width="862" ><br>
 
 ### 2.3 XQuery Injection
 
@@ -1144,7 +1144,7 @@ Would return:
     <account>Admin</account>
 </user>
 ```
-<img src="https://i.ibb.co/bF82bkd/Screenshot-2020-03-18-at-12-06-49-AM.png" align="left" height="392" width="862" ><br>
+<img src="https://i.ibb.co/bF82bkd/Screenshot-2020-03-18-at-12-06-49-AM.png" align="center" height="392" width="862" ><br>
 
 Assuming that the XQuery gets its user name string from the input, an attacker can manipulate this query into returning the set of all users. By providing the input string
 
@@ -1158,7 +1158,7 @@ doc("user.xml")/users/user[username="xxx" or "1"="1"]
  
 Which would return a node-set of all users.
 
-<img src="https://i.ibb.co/s1zcV1R/Screenshot-2020-03-18-at-12-10-40-AM.png" align="left" height="272" width="862" ><br>
+<img src="https://i.ibb.co/s1zcV1R/Screenshot-2020-03-18-at-12-10-40-AM.png" align="center" height="272" width="862" ><br>
 
 There are many forms of attack that are possible through XQuery and are very difficult to predict. Mitigation of XQuery injection requires proper input validation prior to executing the XQuery. Also it is important to run XML parsing and query infrastructure with minimal privileges so that an attacker is limited in their ability to probe other system resources from XQuery.
 
@@ -1213,7 +1213,7 @@ This attack occurs when XML input containing a reference to an external entity i
 ```
 Expected output branch will be Mumbai.
 
-<img src="https://i.ibb.co/6w19HFp/Screenshot-2020-03-18-at-12-23-32-AM.png" align="left" height="564" width="862" ><br>
+<img src="https://i.ibb.co/6w19HFp/Screenshot-2020-03-18-at-12-23-32-AM.png" align="center" height="564" width="862" ><br>
 
 #### XXE - Identifying - 2
 **Test 2 : Confirmation that SYSTEM entities are usable**
@@ -1236,8 +1236,8 @@ Expected output branch will be Mumbai.
 </NETSQUARE>
 ```
 
-<img src="https://i.ibb.co/R2xWrwV/Screenshot-2020-03-18-at-12-31-55-AM.png" align="left" height="276" width="862" ><br>
-<img src="https://i.ibb.co/5TQx8zz/Screenshot-2020-03-18-at-12-31-37-AM.png" align="left" height="500" width="862" ><br>
+<img src="https://i.ibb.co/R2xWrwV/Screenshot-2020-03-18-at-12-31-55-AM.png" align="center" height="276" width="862" ><br>
+<img src="https://i.ibb.co/5TQx8zz/Screenshot-2020-03-18-at-12-31-37-AM.png" align="center" height="500" width="862" ><br>
 
 #### XXE - Identifying - 3
 **Test 2 : Test for external DTD availability to exfiltrate data**
@@ -1269,8 +1269,8 @@ Expected output branch will be Mumbai.
 </NETSQUARE>
 ```
 
-<img src="https://i.ibb.co/gSs0DSF/Screenshot-2020-03-18-at-1-29-06-AM.png" align="left" height="415" width="862" ><br>
-<img src="https://i.ibb.co/jyF3fYY/Screenshot-2020-03-18-at-1-31-07-AM.png" align="left" height="500" width="862" ><br>
+<img src="https://i.ibb.co/gSs0DSF/Screenshot-2020-03-18-at-1-29-06-AM.png" align="center" height="415" width="862" ><br>
+<img src="https://i.ibb.co/jyF3fYY/Screenshot-2020-03-18-at-1-31-07-AM.png" align="center" height="500" width="862" ><br>
 
 ##### XXE-Disclosure of confidential data - 1
 
@@ -1285,7 +1285,7 @@ Understanding How parser works on following request.
 <foo>&xxe;</foo>
 ```
 
-<img src="https://i.ibb.co/jw05MPC/Screenshot-2020-03-18-at-1-42-12-AM.png" align="left" height="752" width="862" ><br>
+<img src="https://i.ibb.co/jw05MPC/Screenshot-2020-03-18-at-1-42-12-AM.png" align="center" height="752" width="862" ><br>
 
 ##### XXE-Disclosure of confidential data - 2
 
