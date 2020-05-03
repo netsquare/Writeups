@@ -621,7 +621,7 @@ The result will be:
 <price>98.99</price>
 ```
 
-<img src="https://i.ibb.co/dPQGyky/Screenshot-2020-03-16-at-10-59-03-PM.png" align="left" height="324" width="862" ><BR>
+<img src="https://i.ibb.co/dPQGyky/Screenshot-2020-03-16-at-10-59-03-PM.png" align="center" height="324" width="862" ><BR>
 
 
 **XPath Functions**
@@ -719,7 +719,7 @@ main(int argc, char **argv)
 ```gcc -Wall -o read_root $(xml2-config --cflags) $(xml2-config --libs) read_root.c```
 Using compiled binary you can able to parse any xml file and find root element of the XML document.
 
-<img src="https://i.ibb.co/TcPh3b0/Screenshot-2020-03-16-at-11-28-11-PM.png" align="left" height="714" width="862" ></BR>
+<img src="https://i.ibb.co/TcPh3b0/Screenshot-2020-03-16-at-11-28-11-PM.png" align="center" height="714" width="862" ></BR>
 
 
 #### 1.9.2 XML Parser - Java
@@ -801,10 +801,10 @@ public class parseXML {
  }
 }
 ```
-<img src="https://i.ibb.co/vvkCX61/Screenshot-2020-03-17-at-12-24-04-AM.png" align="left" height="225" width="862" >
+<img src="https://i.ibb.co/vvkCX61/Screenshot-2020-03-17-at-12-24-04-AM.png" align="center" height="225" width="862" >
 </BR>
 
-<img src="https://i.ibb.co/c2VRnPF/Screenshot-2020-03-17-at-12-25-05-AM.png" align="left" height="687" width="862" ></BR>
+<img src="https://i.ibb.co/c2VRnPF/Screenshot-2020-03-17-at-12-25-05-AM.png" align="center" height="687" width="862" ></BR>
 
 There are multiple parser provided in Microsoft .NET technology, PHP, Python etc.
 
@@ -845,7 +845,7 @@ XQuery can be used to:
 The doc() function is used to open the "book.xml" file:
 `doc("book.xml")`
 
-<img src="https://i.ibb.co/jDF7zfk/Screenshot-2020-03-17-at-2-10-49-AM.png" align="left" height="495" width="862" ><br>
+<img src="https://i.ibb.co/jDF7zfk/Screenshot-2020-03-17-at-2-10-49-AM.png" align="center" height="495" width="862" ><br>
 
 
 **[XQuery FLWOR Expressions](https://www.w3.org/TR/xquery-31/#id-flwor-expressions)**
@@ -876,7 +876,7 @@ The result will be:
 </ul>
 ```
 
-<img src="https://i.ibb.co/SRgxxwg/Screenshot-2020-03-17-at-2-46-04-AM.png" align="left" height="527" width="862" ><br>
+<img src="https://i.ibb.co/SRgxxwg/Screenshot-2020-03-17-at-2-46-04-AM.png" align="center" height="527" width="862" ><br>
 
 
 **XQuery Basic Syntax Rules**
@@ -1006,7 +1006,7 @@ An Xpath query will be as follows:
 string(//user[username/text()='Ravi' and password/text()='Admin123']/account/text())
 ```
 
-<img src="https://i.ibb.co/dM3mJf4/Screenshot-2020-03-17-at-6-33-46-PM.png" align="left" height="296" width="862" ><br>
+<img src="https://i.ibb.co/dM3mJf4/Screenshot-2020-03-17-at-6-33-46-PM.png" align="center" height="296" width="862" ><br>
 
 Similar to SQL Injection we can manipulate the above query and inject XPath code and interfere the query result.
 An Xpath SQL query will be as follows:
@@ -1017,7 +1017,7 @@ string(//user[username/text()='Ravi' and password/text()='' or '1' = '1' ]/accou
 string(//user[username/text()='Ravi' and password/text()='' or '1' = '2' ]/account/text())
 ```
 
-<img src="https://i.ibb.co/F0Yxnjk/Screenshot-2020-03-17-at-6-46-55-PM.png" align="left" height="344" width="862" ><br>
+<img src="https://i.ibb.co/F0Yxnjk/Screenshot-2020-03-17-at-6-46-55-PM.png" align="center" height="344" width="862" ><br>
 
 Example.
 ![](https://i.ibb.co/vwFBQr6/Screenshot-2020-02-04-at-1-25-50-AM.png)
@@ -1060,13 +1060,13 @@ Using the "Boolenization" method the attacker may find out if the given XPath ex
 string(//user[position()=1]/child::node()[position()=4])   
 Output : Admin123
 ```
-<img src="https://i.ibb.co/Ld7pVVq/Screenshot-2020-03-17-at-6-58-14-PM.png" align="left" height="102" width="862" ><br>
+<img src="https://i.ibb.co/Ld7pVVq/Screenshot-2020-03-17-at-6-58-14-PM.png" align="center" height="102" width="862" ><br>
 
 ```
 string-length(string(//user[position()=1]/child::node()[position()=4]))        
 OutPut : 8 
 ```
-<img src="https://i.ibb.co/0yBxKh9/Screenshot-2020-03-17-at-6-59-07-PM.png" align="left" height="37" width="862" ><br>
+<img src="https://i.ibb.co/0yBxKh9/Screenshot-2020-03-17-at-6-59-07-PM.png" align="center" height="37" width="862" ><br>
 
 
 ```
@@ -1079,7 +1079,7 @@ substring(string(//user[position()=1]/child::node()[position()=4]),6,1)      Out
 substring(string(//user[position()=1]/child::node()[position()=4]),7,1)      OutPut : 2
 substring(string(//user[position()=1]/child::node()[position()=4]),8,1)      OutPut : 3
 ```
-<img src="https://i.ibb.co/vQ1LDtt/Screenshot-2020-03-17-at-7-00-07-PM.png" align="left" height="280" width="862" ><br>
+<img src="https://i.ibb.co/vQ1LDtt/Screenshot-2020-03-17-at-7-00-07-PM.png" align="center" height="280" width="862" ><br>
 
 **2.2.1.2 XML Crawling**
 
