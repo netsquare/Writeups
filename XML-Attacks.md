@@ -451,7 +451,7 @@ As with general entity references, you cannot make references in declarations. I
 
 FIRST and LAST during parshing will be  : *Bhagyashree* and *Gajera*
 
-<img src="https://i.ibb.co/rbstg1s/Screenshot-2020-03-16-at-9-04-23-PM.png" align="left" height="394" width="862" ><BR>
+<img src="https://i.ibb.co/rbstg1s/Screenshot-2020-03-16-at-9-04-23-PM.png" height="394" width="862" >
 
 You cannot make FNAME and LNAME references in declarations.
 
@@ -533,7 +533,7 @@ Emp :
 
 ```xsltproc emp_xslt.xsl emplist.xml``` 
 
-<img src="https://i.ibb.co/MNNwHNQ/Screenshot-2020-03-16-at-10-25-08-PM.png" align="left" height="697" width="862" >
+<img src="https://i.ibb.co/MNNwHNQ/Screenshot-2020-03-16-at-10-25-08-PM.png" height="697" width="862" >
 <BR>
 
 
@@ -598,7 +598,7 @@ The result will be:
 <year>1928</year>
 ```
 
-<img src="https://i.ibb.co/Htx45qG/Screenshot-2020-03-16-at-10-54-14-PM.png" align="left" height="324" width="862" ><BR>
+<img src="https://i.ibb.co/Htx45qG/Screenshot-2020-03-16-at-10-54-14-PM.png" height="324" width="862" ><BR>
 
 **XPath Predicates**
 
